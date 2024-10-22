@@ -1,0 +1,136 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1729598090965022, "dur":12363, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598090977391, "dur":130, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598090977554, "dur":274, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598090978953, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1729598090979334, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1729598090977856, "dur":2289, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598090980146, "dur":2294684, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598093274831, "dur":59, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598093274890, "dur":79, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598093275045, "dur":1093, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1729598090978170, "dur":2007, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729598090980179, "dur":194, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729598090980374, "dur":732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729598090981352, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090981477, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090981669, "dur":362, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090982032, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090982109, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090982160, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090982477, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090982641, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090982733, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090982945, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090983049, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729598090983177, "dur":1347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\PackageCache\\com.unity.burst@1.8.16\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":1, "ts":1729598090981109, "dur":3416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1729598090984528, "dur":109, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729598090985468, "dur":2288563, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1729598090978092, "dur":2068, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729598090980162, "dur":242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729598090980405, "dur":705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729598090981118, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Editar\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1729598090981111, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1729598090981408, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729598090981407, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729598090981614, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729598090983255, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729598090983708, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729598090984421, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729598090985425, "dur":312, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729598090984881, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729598090986080, "dur":8981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1729598090995072, "dur":2279755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729598090978063, "dur":2087, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729598090980152, "dur":950, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729598090981559, "dur":179, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1729598090981792, "dur":15876, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1729598090997802, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player5ad0d72f-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1729598090981740, "dur":16179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1729598090998183, "dur":86738, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1729598091085553, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1729598091085552, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1729598091085624, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1729598091085970, "dur":2188859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729598090978087, "dur":2068, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729598090980157, "dur":194, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729598090980351, "dur":94, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729598090980445, "dur":664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729598090981404, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\PackageCache\\com.unity.burst@1.8.16\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729598090981403, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729598090983489, "dur":158, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729598090981934, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729598090983692, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729598090985099, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729598090986086, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1729598090986856, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1729598090987466, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1729598090988227, "dur":320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1729598090988554, "dur":2286265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729598090978111, "dur":2053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729598090980165, "dur":193, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729598090980367, "dur":741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729598090981121, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Editar\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1729598090981108, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1729598090981437, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729598090981437, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729598090981701, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729598090985147, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729598090983576, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729598090985421, "dur":565, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729598090986115, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1729598090986791, "dur":10893, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1729598090986791, "dur":10895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1729598090997732, "dur":2277102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729598090978134, "dur":2034, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729598090980171, "dur":208, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729598090980379, "dur":728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729598090981116, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Editar\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1729598090981109, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1729598090981305, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Editar\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090981304, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090981400, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729598090981479, "dur":751, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090981478, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090982244, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090983582, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090984649, "dur":352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090985391, "dur":174, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729598090985020, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090985720, "dur":448, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729598090986176, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1729598090986813, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1729598090987526, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1729598090987934, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1729598090988364, "dur":2286454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729598090978162, "dur":2011, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729598090980174, "dur":194, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729598090980369, "dur":736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729598090981114, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729598090981419, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729598090981418, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729598090981684, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729598090983408, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729598090984671, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729598090985013, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729598090985448, "dur":301, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729598090986161, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1729598090989083, "dur":2285734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729598090978187, "dur":1994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729598090980182, "dur":189, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729598090980371, "dur":738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729598090981110, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1729598090981273, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Runner01/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1729598090981415, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Project\\Knightrunner\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729598090981414, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729598090983453, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729598090982057, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729598090983566, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729598090986746, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1729598090986745, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Runner01/Knightrunner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1729598090986828, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1729598090987777, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Runner01/Knightrunner_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1729598090989327, "dur":2285487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729598093278036, "dur":450, "ph":"X", "name": "ProfilerWriteOutput" }
+,
